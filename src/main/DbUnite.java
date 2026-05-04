@@ -14,8 +14,8 @@ public class DbUnite {
     public static Connection getConnection() throws SQLException {
 
         final String URL = "jdbc:mysql://localhost:3306/studentdb";
-        final String USER = "root";
-        final String PASSWORD = "root123";
+        final String USER = " ";
+        final String PASSWORD = " ";
 
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
